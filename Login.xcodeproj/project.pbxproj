@@ -13,6 +13,7 @@
 		353FF67426D65A2E00666D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353FF67226D65A2E00666D92 /* Main.storyboard */; };
 		353FF67626D65A3000666D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353FF67526D65A3000666D92 /* Assets.xcassets */; };
 		353FF67926D65A3000666D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353FF67726D65A3000666D92 /* LaunchScreen.storyboard */; };
+		353FF68126D6724000666D92 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353FF68026D6724000666D92 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		353FF67526D65A3000666D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		353FF67826D65A3000666D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		353FF67A26D65A3000666D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353FF68026D6724000666D92 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				353FF66E26D65A2E00666D92 /* SceneDelegate.swift */,
 				353FF67026D65A2E00666D92 /* ViewController.swift */,
 				353FF67226D65A2E00666D92 /* Main.storyboard */,
+				353FF68026D6724000666D92 /* WelcomeViewController.swift */,
 				353FF67526D65A3000666D92 /* Assets.xcassets */,
 				353FF67726D65A3000666D92 /* LaunchScreen.storyboard */,
 				353FF67A26D65A3000666D92 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				353FF67126D65A2E00666D92 /* ViewController.swift in Sources */,
+				353FF68126D6724000666D92 /* WelcomeViewController.swift in Sources */,
 				353FF66D26D65A2E00666D92 /* AppDelegate.swift in Sources */,
 				353FF66F26D65A2E00666D92 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PavelTkachev.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PavelTkachev.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
